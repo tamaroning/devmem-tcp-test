@@ -1,0 +1,95 @@
+# C言語のオブジェクトファイル
+*.o
+
+# 実行ファイル
+devmem_server
+devmem_client
+dmabuf_helper
+
+# コアダンプファイル
+core
+core.*
+
+# ビルド成果物
+*.a
+*.so
+*.dylib
+*.dll
+
+# デバッグ情報
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# プリプロセッサファイル
+*.i
+*.ii
+
+# アセンブリファイル
+*.s
+*.S
+
+# 依存関係ファイル
+*.d
+
+# ログファイル
+*.log
+results/
+
+# プロファイルデータ
+perf.data
+perf.data.old
+*.prof
+
+# 一時ファイル
+*.tmp
+*.temp
+*~
+
+# エディタ固有ファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS固有
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux固有
+*~
+
+# バックアップファイル
+*.bak
+*.backup
+
+# テスト結果
+test_results/
+benchmark_results/
+
+# インストール関連
+install_manifest.txt
+
+# パッケージファイル
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# ドキュメント生成
+docs/_build/
+docs/html/
+docs/latex/
+
+# 環境設定ファイル
+.env
+.env.local
+.env.*.local
+
+# システムファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
