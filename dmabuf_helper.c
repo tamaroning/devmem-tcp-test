@@ -1,6 +1,9 @@
+#define _GNU_SOURCE
 #include <errno.h>
 #include <fcntl.h>
+#include <linux/memfd.h> // memfd_create, MFD_CLOEXEC
 #include <linux/udmabuf.h>
+#include <net/if.h> // ifreq
 #include <netlink/genl/ctrl.h>
 #include <netlink/genl/genl.h>
 #include <netlink/netlink.h>
